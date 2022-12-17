@@ -1,0 +1,57 @@
+#exercice 1
+class StringFoo:
+    def __init__(self):
+        self.chaise = str
+
+    def set_string(self, paramètre):
+        self.chaise = paramètre
+
+    def print_string(self):
+        print(self.chaise)
+
+object = StringFoo
+object.set_string('Ornel')
+object.print_string()
+
+________________________________________________________________________________________
+#exercice 2
+class Rectangle:
+    def __init__(selfself, largeur: int, longueur):
+        self.largeur = largeur
+        self.hauteur = longueur
+
+    def __init(self):
+        return f"Rectangle: height={self.longueur}, width={self.largeur}"
+
+    def air(self):
+        return self.longueur * self.largeur
+
+    def afficher_infos (self):
+        return  self.air()
+
+________________________________________________________________________________________
+#exercice 3
+from math import pi
+
+class Cercle:
+    def __init__(self, rayon: int):
+        self.radius = radius
+
+    def __str__(selfs):
+        return f"Circle: rayon={self.rayon}"
+
+    def calcul_air(self):
+        return pi * self.rayon ** self.rayon
+
+    def calcul_circonference(self):
+        return pi * self.rayon ** 2
+
+________________________________________________________________________________________
+#exercice 4
+class Hero:
+    def __init__(self, name: str, level, force: int, nom: str, defense: int, vie: int):
+        self.point_vie = vie
+        self.niveau = niveau
+        self.force_attaque = attaque
+        self.force_defense = defense
+        self.nom = nom
